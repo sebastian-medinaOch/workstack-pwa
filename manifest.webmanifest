@@ -1,0 +1,21 @@
+{
+  "name": "Workstack — Finanzas personales",
+  "short_name": "Workstack",
+  "description": "Tu vida financiera, en orden.",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#050609",
+  "theme_color": "#EFB810",
+  "lang": "es",
+  "icons": [
+    {
+      "src": "./workstack-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

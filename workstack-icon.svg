@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Workstack</title>
+  <desc id="desc">Workstack yellow bar mark on a dark background</desc>
+  <rect width="512" height="512" rx="112" fill="#050609"/>
+  <g fill="#EFB810">
+    <rect x="112" y="270" width="48" height="112" rx="10"/>
+    <rect x="190" y="204" width="48" height="178" rx="10"/>
+    <rect x="268" y="132" width="48" height="250" rx="10"/>
+    <rect x="346" y="72" width="48" height="310" rx="10"/>
+  </g>
+</svg>

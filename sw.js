@@ -1,4 +1,4 @@
-const CACHE_NAME = 'workstack-shell-1.1.4';
+const CACHE_NAME = 'workstack-shell-1.1.5';
 
 function isInScope(url) {
   const scope = new URL(self.registration.scope);

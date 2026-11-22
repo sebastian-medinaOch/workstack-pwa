@@ -3,6 +3,7 @@ name: Deploy Workstack PWA to GitHub Pages
 on:
   push:
     branches: [main]
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -15,6 +16,8 @@ concurrency:
 
 jobs:
   deploy:
+    # Manual dispatches from a task branch must never publish to production.
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     environment:
       name: github-pages
